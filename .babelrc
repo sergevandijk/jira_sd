@@ -1,0 +1,38 @@
+{
+    "presets": [
+        "react",
+        ["env", {
+            "modules": false
+        }]
+    ],
+    "plugins": [
+        "syntax-trailing-function-commas",
+        "transform-object-assign",
+        "transform-remove-strict-mode",
+        "transform-es2017-object-entries",
+        "syntax-dynamic-import"
+    ],
+    "env": {
+        "test": {
+            "presets": [
+                ["env", {
+                    "modules": "commonjs"
+                }]
+            ]
+        },
+        "karma-test": {
+            "plugins": [
+                "dynamic-import-webpack",
+                "add-module-exports",
+                "transform-es2015-modules-amd-lazy"
+            ]
+        },
+        "integration": {
+            "presets": [
+                ["env", {
+                    "modules": "commonjs"
+                }]
+            ]
+        }
+    }
+}

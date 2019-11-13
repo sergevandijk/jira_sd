@@ -1,0 +1,24 @@
+# JSDS-300: a special ESLint configuration for JS files that are packed without Babel
+
+# This file is essentially a gitignore(5) that is designed to be the "opposite"
+# of our babel-loader exclude pattern, which tells webpack to ignore any paths
+# that contain words like "vendor" when passing JS files through babel-loader.
+
+# The point of this file is to tell ESLint to lint those files and no others,
+# by telling it to ignore any paths that do *not* contain words like "vendor".
+
+# Ignoring files that match *none* of a set of patterns (rather than *some*)
+# is cumbersome with the gitignore(5) format. While you can "unignore" files
+# in theory, it's very easy to ruin your chances by inadvertently ignoring
+# one of their containing directories (congratulations, you played yourself).
+
+# Caveat editor: we are currently locked into a very old and very incorrect
+# implementation of the gitignore(5) format (ignore@<3).
+
+*.js
+
+!*node_modules*
+!*vendor*
+!*backport*
+!*lib*
+!*.soy.js*

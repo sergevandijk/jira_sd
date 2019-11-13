@@ -1,0 +1,8 @@
+--timeout 60s
+--require babel-core/register
+--reporter new-mocha-junit-reporter
+--reporter-options mochaFile=sd-components/reports/src/test/js/integration-tests/rest-integration-tests-results.xml
+--ui bdd
+--environment tests/integration-tests-parent/integration-tests/src/test/resources/localtest.properties
+--data tests/integration-tests-parent/integration-tests/src/test/xml
+**/js/integration-tests/**/*.js

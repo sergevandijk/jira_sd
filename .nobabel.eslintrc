@@ -1,0 +1,9 @@
+// JSDS-300: a special ESLint configuration for JS files that are packed without Babel
+
+// This just tries to parse each file as ECMAScript 5. There are no presets or rules!
+
+{
+  "parserOptions": {
+    "ecmaVersion": 5
+  }
+}

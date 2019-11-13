@@ -1,0 +1,16 @@
+**/*.ts
+**/*.tsx
+**/target/*
+**/global-dependencies/*
+**/sdmakehome/*
+**/node_modules/*
+**/aui-tour-5x-backport/*
+**/tests/servicedesk-testutils-plugin/src/main/resources/*
+coverage/**
+sd-components/frontend-plugin/build/tests/libs/*
+sd-components/frontend-plugin/build/tests/mocks/jira-formatter-mock.js
+sd-components/servicedesk-automation-plugin/*
+sd-components/timed-promise/*
+sd-components/jira-email-processor-plugin/*
+tests/integration-tests-parent/servicedesk-automation-test-parent/*
+.git

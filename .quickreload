@@ -1,0 +1,31 @@
+#
+# this is our list of "watched" plugin directories for the quickreload plugin to monitor
+#
+#
+# tha main plugin gets a small delay because the jar assembly takes some time.  We can try to finesse this over time
+# to ensure we have the fastest reload time possible
+#
+#
+
+alternateResources=./target/classes:sd-components/servicedesk/plugin
+alternateResources=./target/classes:sd-components/project-ui
+alternateResources=./target/classes:sd-components/reports
+alternateResources=./target/classes:sd-components/core-ui-plugin
+alternateResources=./target/classes:sd-components/approvals/approvals-plugin
+alternateResources=./target/classes:sd-components/automation-modules/automation-modules-plugin
+alternateResources=./target/classes:sd-components/knowledge-base
+alternateResources=./target/classes:sd-components/notifications/notifications-plugin
+alternateResources=./target/classes:sd-components/canned-responses/canned-responses-plugin
+alternateResources=./target/classes:sd-components/internal-base/internal-base-plugin
+alternateResources=./target/classes:sd-components/variable-substitution/variable-substitution-plugin
+plugin-api
+
+
+#
+# test related plugins
+#
+tests/condition-plugin
+tests/servicedesk-testutils-plugin
+
+# Web resource batching and caching enabled by default
+qr:webresourcebatching=true

@@ -1,0 +1,29 @@
+module.exports = {
+    "exclude": {
+        "patterns": [
+            // Compiled files
+            "**/target/**",
+            "**/dist/**",
+
+            // All test files
+            "**/*test*.js",
+            "**/*tests*.js",
+
+            // Modules & tools not served to the client
+            "**/sdmakehome/**",
+            "gulpfile.js",
+            "conf/**",
+
+            //External libraries
+            "**/node_modules/**",
+            "**/bower_components/**"
+        ],
+        variables: [] // Empty 'variables' property to prevent error messages
+    },
+    "variableDisplaySize": 128,
+    "env": {
+        "browser": true,
+        "amd": true
+    }
+}
+

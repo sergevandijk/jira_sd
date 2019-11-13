@@ -1,0 +1,107 @@
+{
+    "plugin": {
+        "name": "SD Core Plugin",
+        "key": "com.atlassian.servicedesk",
+        "resources": "./sd-components/servicedesk/plugin/src/main/resources",
+        "generated": "./sd-components/servicedesk/plugin/target/classes",
+        "unitTests": "./sd-components/servicedesk/plugin/src/test/js/unit-tests"
+    },
+    "projectPlugin": {
+        "name": "SD Project Plugin",
+        "key": "com.atlassian.servicedesk.project-ui",
+        "resources": "./sd-components/project-ui/src/main/resources",
+        "generated": "./sd-components/project-ui/target/classes",
+        "unitTests": "./sd-components/project-ui/src/test/js/unit-tests"
+    },
+    "reportsPlugin": {
+        "name": "SD Reports Plugin",
+        "key": "com.atlassian.servicedesk.servicedesk-reports-plugin",
+        "resources": "./sd-components/reports/src/main/resources",
+        "generated": "./sd-components/reports/target/classes",
+        "unitTests": "./sd-components/reports/src/test/js",
+        "integrationTests": "./sd-components/reports/src/test/js/integration-tests"
+    },
+    "approvalsPlugin": {
+        "name": "SD Approvals Plugin",
+        "key": "com.atlassian.servicedesk.approvals-plugin",
+        "resources": "./sd-components/approvals/approvals-plugin/src/main/resources",
+        "generated": "./sd-components/approvals/approvals-plugin/target/classes",
+        "unitTests": "./sd-components/approvals/approvals-plugin/src/test/js/unit-tests",
+        "integrationTests": "./sd-components/approvals/approvals-plugin/src/test/js/integration-tests"
+    },
+    "automationModules": {
+        "name": "SD Automation Modules",
+        "key": "com.atlassian.servicedesk.plugins.automation.servicedesk-automation-modules-plugin",
+        "resources": "./sd-components/automation-modules/automation-modules-plugin/src/main/resources",
+        "generated": "./sd-components/automation-modules/automation-modules-plugin/target/classes",
+        "unitTests": "./sd-components/automation-modules/automation-modules-plugin/src/test/js/unit-tests"
+    },
+    "automationThenWebHookPlugin": {
+        "name": "Service Desk Automation Then-Webhook Plugin",
+        "key": "com.atlassian.servicedesk.plugins.automation.servicedesk-automation-then-webhook-plugin",
+        "resources": "./sd-components/automation-modules/automation-then-webhook-plugin/src/main/resources",
+        "generated": "./sd-components/automation-modules/automation-then-webhook-plugin/target/classes"
+    },
+    "workingHoursPlugin": {
+        "name": "JIRA Working Hours Plugin",
+        "key": "com.atlassian.jira.plugins.workinghours",
+        "resources": "./sd-components/jira-working-hours-plugin/plugin/src/main/resources",
+        "generated": "./sd-components/jira-working-hours-plugin/plugin/target/classes"
+    },
+    "restApiIntegrationTests": {
+        "name": "SD public REST API (integration tests)",
+        "key": "com.atlassian.servicedesk.public-rest-api",
+        "integrationTests": "./tests/integration-tests-parent/integration-tests/src/test/js/integration-tests/sd-public-rest-api"
+    },
+    "knowledgeBasePlugin": {
+        "name": "SD Knowledge Base Plugin",
+        "key": "com.atlassian.servicedesk.servicedesk-knowledge-base-plugin",
+        "resources": "./sd-components/knowledge-base/src/main/resources",
+        "generated": "./sd-components/knowledge-base/target/classes",
+        "unitTests": "./sd-components/knowledge-base/src/test/js"
+    },
+    "corePlugin": {
+        "name": "SD Core UI Plugin",
+        "key": "com.atlassian.servicedesk.core-ui",
+        "resources": "./sd-components/core-ui/src/main/resources",
+        "generated": "./sd-components/core-ui/target/classes",
+        "unitTests": "./sd-components/core-ui/src/test/js/unit-tests"
+    },
+    "notificationsPlugin": {
+        "name": "SD Notifications Plugin",
+        "key": "com.atlassian.servicedesk.servicedesk-notifications-plugin",
+        "resources": "./sd-components/notifications/notifications-plugin/src/main/resources",
+        "generated": "./sd-components/notifications/notifications-plugin/target/classes",
+        "unitTests": "./sd-components/notifications/notifications-plugin/src/test/js/unit-tests",
+        "integrationTests": "./sd-components/notifications/notifications-plugin/src/test/js/integration-tests"
+    },
+    "cannedResponsesPlugin": {
+        "name": "Service Desk Canned Responses Plugin",
+        "key": "com.atlassian.servicedesk.servicedesk-canned-responses-plugin",
+        "resources": "./sd-components/canned-responses/canned-responses-plugin/src/main/resources",
+        "generated": "./sd-components/canned-responses/canned-responses-plugin/target/classes",
+        "unitTests": "./sd-components/canned-responses/canned-responses-plugin/src/test/js/unit-tests",
+        "integrationTests": "./sd-components/canned-responses/canned-responses-plugin/src/test/js/integration-tests"
+    },
+    "variableSubstitutionPlugin": {
+        "name": "Service Desk Variable Substitution Plugin",
+        "key": "com.atlassian.servicedesk.servicedesk-variable-substitution-plugin",
+        "resources": "./sd-components/variable-substitution/variable-substitution-plugin/src/main/resources",
+        "generated": "./sd-components/variable-substitution/variable-substitution-plugin/target/classes"
+    },
+    "internalBasePlugin": {
+        "name": "Service Desk Internal Base Plugin",
+        "key": "com.atlassian.servicedesk.internal-base-plugin",
+        "resources": "./sd-components/internal-base/internal-base-plugin/src/main/resources",
+        "generated": "./sd-components/internal-base/internal-base-plugin/target/classes"
+    },
+    "testSupport": {
+        "name": "SD Test Support",
+        "src": "./tests/js-unit-test-support/src",
+        "target": "./tests/js-unit-test-support/target"
+    },
+    "buildSupport": {
+        "name": "SD FE Build Support",
+        "src": "./sd-components/frontend-plugin/build"
+    }
+}
