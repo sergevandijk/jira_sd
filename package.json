@@ -171,7 +171,7 @@
         "urijs": "1.19.1",
         "url-loader": "1.0.1",
         "webpack": "4.10.2",
-        "webpack-bundle-analyzer": "3.0.3",
+        "webpack-bundle-analyzer": "3.3.2",
         "webpack-cli": "2.0.13",
         "webpack-dev-server": "3.1.14",
         "webpack-merge": "4.1.0",
