@@ -166,7 +166,7 @@
         "tslint-plugin-prettier": "2.0.1",
         "tslint-react": "4.0.0",
         "typescript": "3.5.2",
-        "underscore": "1.8.3",
+        "underscore": "1.12.1",
         "unstated": "2.1.1",
         "urijs": "1.19.1",
         "url-loader": "1.0.1",
