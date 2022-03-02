@@ -104,7 +104,7 @@
         "jquery-hoverintent": "1.9.0",
         "jquery-migrate": "1.4.1",
         "jsdifflib": "cemerick/jsdifflib#f728d45e5ccb798f35696f2ac6b763fbfc7682d0",
-        "karma": "0.13.19",
+        "karma": "6.3.16",
         "karma-atlassian-soy": "0.1.0",
         "karma-babel-preprocessor": "6.0.1",
         "karma-chrome-launcher": "2.0.0",
