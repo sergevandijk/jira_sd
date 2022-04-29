@@ -43,7 +43,7 @@
         "@types/underscore": "1.8.14",
         "@types/urijs": "1.19.0",
         "Select2": "select2/select2#3.5.2",
-        "async": "1.4.2",
+        "async": "2.6.4",
         "atlassian-webresource-webpack-plugin": "4.4.3",
         "atlassian-wrm": "1.12.0",
         "autoprefixer": "9.1.5",
