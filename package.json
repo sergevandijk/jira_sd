@@ -132,7 +132,7 @@
         "pg": "4.4.4",
         "postcss-loader": "3.0.0",
         "prettier": "1.18.2",
-        "properties-reader": "0.0.15",
+        "properties-reader": "2.2.0",
         "qunitjs": "1.19.0",
         "react": "16.8.6",
         "react-beautiful-dnd": "10.0.3",
